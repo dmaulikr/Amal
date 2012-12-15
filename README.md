@@ -3,8 +3,6 @@ Amal
 
 Amal is an iOS app that tracks daily amal (deeds) progress via an active reminder. This is a project made for MDEC ICON2 (ICONapps) at the end of Dec '11. Coded in 2 months (Part Time). Also, my first try on Obj-C programming.
 
-Amal is an app that tracks daily amal (deeds) progress via an active reminder.
-
 Users can create a list of amal that they do whether it’s on a daily basis, weekly basis, or monthly basis. 
 
 It will have a daily pop up reminder to prompt user to log in their amal for the day. 
