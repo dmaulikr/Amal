@@ -1,0 +1,15 @@
+//
+//  AmalSingleViewController.h
+//  Amal
+//
+//  Created by Mohd Rusman Arief A Rahman on 12/8/11.
+//  Copyright (c) 2011 Experience Garage. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface AmalSingleViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UILabel *singleAmalTitle;
+
+@end

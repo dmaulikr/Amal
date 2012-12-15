@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3177A5A14D3CDDF00FFBB3E /* AmalSingleEditFrequencyController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3177A5914D3CDDF00FFBB3E /* AmalSingleEditFrequencyController.m */; };
+		D320C5DC14E3B4CA00CDA325 /* AmalData.plist in Resources */ = {isa = PBXBuildFile; fileRef = D320C5DB14E3B4CA00CDA325 /* AmalData.plist */; };
+		D324CF9F14D930B50084FB0D /* AmalLogWizardSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D324CF9E14D930B40084FB0D /* AmalLogWizardSubViewController.m */; };
+		D33059D014FB9F8700EDAD2C /* arrowleft.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D33059CE14FB9F8700EDAD2C /* arrowleft.jpg */; };
+		D33059D114FB9F8700EDAD2C /* arrowright.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D33059CF14FB9F8700EDAD2C /* arrowright.jpg */; };
+		D33059D414FBD6BB00EDAD2C /* table_cell_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D33059D314FBD6BB00EDAD2C /* table_cell_bg.png */; };
+		D33059D614FC705F00EDAD2C /* background-simple.png in Resources */ = {isa = PBXBuildFile; fileRef = D33059D514FC705F00EDAD2C /* background-simple.png */; };
+		D33059DC14FC770C00EDAD2C /* background-simple-no-amal.png in Resources */ = {isa = PBXBuildFile; fileRef = D33059DA14FC770C00EDAD2C /* background-simple-no-amal.png */; };
+		D33059DE14FC789C00EDAD2C /* background-simple-no-amal-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D33059DD14FC789C00EDAD2C /* background-simple-no-amal-arrow.png */; };
+		D33059E114FC7F5600EDAD2C /* toggleNo.png in Resources */ = {isa = PBXBuildFile; fileRef = D33059DF14FC7F5600EDAD2C /* toggleNo.png */; };
+		D33059E214FC7F5600EDAD2C /* toggleYes.png in Resources */ = {isa = PBXBuildFile; fileRef = D33059E014FC7F5600EDAD2C /* toggleYes.png */; };
+		D33059E414FC842000EDAD2C /* background-grunge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D33059E314FC842000EDAD2C /* background-grunge.jpg */; };
+		D33059E614FCB1A400EDAD2C /* scorebanner.png in Resources */ = {isa = PBXBuildFile; fileRef = D33059E514FCB1A400EDAD2C /* scorebanner.png */; };
+		D33059E814FCB2BA00EDAD2C /* scoreribbon.png in Resources */ = {isa = PBXBuildFile; fileRef = D33059E714FCB2BA00EDAD2C /* scoreribbon.png */; };
+		D33059EA14FCB4F400EDAD2C /* amallogbg.png in Resources */ = {isa = PBXBuildFile; fileRef = D33059E914FCB4F400EDAD2C /* amallogbg.png */; };
+		D33059EE14FCBDED00EDAD2C /* amallogbanner.png in Resources */ = {isa = PBXBuildFile; fileRef = D33059ED14FCBDED00EDAD2C /* amallogbanner.png */; };
+		D3453AC7148FED2B00AC5F2D /* AmalListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3453AC6148FED2B00AC5F2D /* AmalListViewController.m */; };
+		D347080414EF462D00B0A23D /* 19-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = D347080314EF462D00B0A23D /* 19-gear.png */; };
+		D347080814EF46AF00B0A23D /* AmalSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D347080714EF46AF00B0A23D /* AmalSettingViewController.m */; };
+		D347080A14EF969200B0A23D /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = D347080914EF969200B0A23D /* Settings.plist */; };
+		D347080D14EFD9F100B0A23D /* AmalSettingEditReminderTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D347080C14EFD9F100B0A23D /* AmalSettingEditReminderTimeController.m */; };
+		D368DA8D14DA7C2F00F46814 /* ConversationLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = D368DA8C14DA7C2F00F46814 /* ConversationLibrary.m */; };
+		D368DA9114DA9FCE00F46814 /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = D368DA8F14DA9FCE00F46814 /* arrow-right.png */; };
+		D368DA9214DA9FCE00F46814 /* arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = D368DA9014DA9FCE00F46814 /* arrow-left.png */; };
+		D368DA9414DAA02B00F46814 /* tabamallogscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = D368DA9314DAA02B00F46814 /* tabamallogscreen.png */; };
+		D389EBB114E4BA1100E4E3D2 /* amaldefaulticon.png in Resources */ = {isa = PBXBuildFile; fileRef = D389EBB014E4BA1000E4E3D2 /* amaldefaulticon.png */; };
+		D393DA2C14E8C6DB009A2B18 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = D393DA2B14E8C6DB009A2B18 /* Utility.m */; };
+		D393DA3314E91295009A2B18 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D393DA3214E91295009A2B18 /* Icon.png */; };
+		D393DA3514E912A4009A2B18 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D393DA3414E912A4009A2B18 /* Icon@2x.png */; };
+		D393DA3914EC038C009A2B18 /* editimage.png in Resources */ = {isa = PBXBuildFile; fileRef = D393DA3814EC038C009A2B18 /* editimage.png */; };
+		D393DA3B14EC05FA009A2B18 /* editimage-square.png in Resources */ = {isa = PBXBuildFile; fileRef = D393DA3A14EC05FA009A2B18 /* editimage-square.png */; };
+		D39F7F7714C4166000CDF698 /* Amal.m in Sources */ = {isa = PBXBuildFile; fileRef = D39F7F7614C4165F00CDF698 /* Amal.m */; };
+		D39F7F8F14C5124700CDF698 /* AmalDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39F7F8E14C5124700CDF698 /* AmalDataController.m */; };
+		D39F7FD514C5781100CDF698 /* AmalNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39F7FD414C5781100CDF698 /* AmalNewViewController.m */; };
+		D39F7FF114C859AE00CDF698 /* amaldhuha.png in Resources */ = {isa = PBXBuildFile; fileRef = D39F7FEE14C859AE00CDF698 /* amaldhuha.png */; };
+		D39F7FF214C859AE00CDF698 /* amalmathurat.png in Resources */ = {isa = PBXBuildFile; fileRef = D39F7FEF14C859AE00CDF698 /* amalmathurat.png */; };
+		D39F7FF314C859AE00CDF698 /* amalquran.png in Resources */ = {isa = PBXBuildFile; fileRef = D39F7FF014C859AE00CDF698 /* amalquran.png */; };
+		D3C7C0C8148CA8C100EA2790 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C7C0C7148CA8C100EA2790 /* UIKit.framework */; };
+		D3C7C0CA148CA8C100EA2790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C7C0C9148CA8C100EA2790 /* Foundation.framework */; };
+		D3C7C0CC148CA8C100EA2790 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C7C0CB148CA8C100EA2790 /* CoreGraphics.framework */; };
+		D3C7C0D2148CA8C100EA2790 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C0D0148CA8C100EA2790 /* InfoPlist.strings */; };
+		D3C7C0D4148CA8C100EA2790 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C7C0D3148CA8C100EA2790 /* main.m */; };
+		D3C7C0D8148CA8C100EA2790 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C7C0D7148CA8C100EA2790 /* AppDelegate.m */; };
+		D3C7C0DB148CA8C100EA2790 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C0D9148CA8C100EA2790 /* MainStoryboard.storyboard */; };
+		D3C7C0E0148CA8C100EA2790 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C0DF148CA8C100EA2790 /* first.png */; };
+		D3C7C0E2148CA8C100EA2790 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C0E1148CA8C100EA2790 /* first@2x.png */; };
+		D3C7C0E5148CA8C100EA2790 /* AmalScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C7C0E4148CA8C100EA2790 /* AmalScoreViewController.m */; };
+		D3C7C0E7148CA8C100EA2790 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C0E6148CA8C100EA2790 /* second.png */; };
+		D3C7C0E9148CA8C100EA2790 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C0E8148CA8C100EA2790 /* second@2x.png */; };
+		D3C7C0F6148CAEA400EA2790 /* AmalLogWizardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C7C0F5148CAEA400EA2790 /* AmalLogWizardViewController.m */; };
+		D3C7C0F9148CAEBC00EA2790 /* GuidanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C7C0F8148CAEBC00EA2790 /* GuidanceViewController.m */; };
+		D3C7C0FC148CAEF200EA2790 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C7C0FB148CAEF200EA2790 /* ShareViewController.m */; };
+		D3C7C0FE148CB32B00EA2790 /* 117-todo.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C0FD148CB32B00EA2790 /* 117-todo.png */; };
+		D3C7C100148CB3B500EA2790 /* 81-dashboard.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C0FF148CB3B500EA2790 /* 81-dashboard.png */; };
+		D3C7C102148CB40D00EA2790 /* 08-chat.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C101148CB40C00EA2790 /* 08-chat.png */; };
+		D3C7C104148CB43300EA2790 /* 179-notepad.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C103148CB43300EA2790 /* 179-notepad.png */; };
+		D3C7C106148CB49700EA2790 /* 18-envelope.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C105148CB49700EA2790 /* 18-envelope.png */; };
+		D3C7C11D148FE4E900EA2790 /* AmalSingleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C7C11C148FE4E900EA2790 /* AmalSingleViewController.m */; };
+		D3D1719B14D3A14600F2F9DF /* AmalSingleEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D1719A14D3A14600F2F9DF /* AmalSingleEditController.m */; };
+		D3D6A65014D28633002FD5BA /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D6A64F14D28633002FD5BA /* Score.m */; };
+		D3D6A65314D28C25002FD5BA /* Done.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D6A65214D28C25002FD5BA /* Done.m */; };
+		D3EBF13414F65997006EAE53 /* logonavbar.png in Resources */ = {isa = PBXBuildFile; fileRef = D3EBF13314F65997006EAE53 /* logonavbar.png */; };
+		D3F288EA14EC8F58002A75D8 /* AmalNewFrequencyController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F288E914EC8F58002A75D8 /* AmalNewFrequencyController.m */; };
+		D3F288F414EE5615002A75D8 /* background-leaf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3F288F314EE5614002A75D8 /* background-leaf.jpg */; };
+		D3F288F614EE6436002A75D8 /* background-wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3F288F514EE6436002A75D8 /* background-wood.jpg */; };
+		D3F288F814EE6FB3002A75D8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F288F714EE6FB3002A75D8 /* Default.png */; };
+		D3F288FA14EE6FC0002A75D8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F288F914EE6FC0002A75D8 /* Default@2x.png */; };
+		D3F288FC14EF4082002A75D8 /* navbarbg.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F288FB14EF4082002A75D8 /* navbarbg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3177A5814D3CDDF00FFBB3E /* AmalSingleEditFrequencyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmalSingleEditFrequencyController.h; sourceTree = "<group>"; };
+		D3177A5914D3CDDF00FFBB3E /* AmalSingleEditFrequencyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmalSingleEditFrequencyController.m; sourceTree = "<group>"; };
+		D320C5DB14E3B4CA00CDA325 /* AmalData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AmalData.plist; sourceTree = "<group>"; };
+		D324CF9D14D930B40084FB0D /* AmalLogWizardSubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmalLogWizardSubViewController.h; sourceTree = "<group>"; };
+		D324CF9E14D930B40084FB0D /* AmalLogWizardSubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmalLogWizardSubViewController.m; sourceTree = "<group>"; };
+		D33059CE14FB9F8700EDAD2C /* arrowleft.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arrowleft.jpg; sourceTree = "<group>"; };
+		D33059CF14FB9F8700EDAD2C /* arrowright.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arrowright.jpg; sourceTree = "<group>"; };
+		D33059D314FBD6BB00EDAD2C /* table_cell_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table_cell_bg.png; sourceTree = "<group>"; };
+		D33059D514FC705F00EDAD2C /* background-simple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-simple.png"; sourceTree = "<group>"; };
+		D33059DA14FC770C00EDAD2C /* background-simple-no-amal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-simple-no-amal.png"; sourceTree = "<group>"; };
+		D33059DD14FC789C00EDAD2C /* background-simple-no-amal-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-simple-no-amal-arrow.png"; sourceTree = "<group>"; };
+		D33059DF14FC7F5600EDAD2C /* toggleNo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toggleNo.png; sourceTree = "<group>"; };
+		D33059E014FC7F5600EDAD2C /* toggleYes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toggleYes.png; sourceTree = "<group>"; };
+		D33059E314FC842000EDAD2C /* background-grunge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background-grunge.jpg"; sourceTree = "<group>"; };
+		D33059E514FCB1A400EDAD2C /* scorebanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scorebanner.png; sourceTree = "<group>"; };
+		D33059E714FCB2BA00EDAD2C /* scoreribbon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scoreribbon.png; sourceTree = "<group>"; };
+		D33059E914FCB4F400EDAD2C /* amallogbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amallogbg.png; sourceTree = "<group>"; };
+		D33059ED14FCBDED00EDAD2C /* amallogbanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amallogbanner.png; sourceTree = "<group>"; };
+		D3453AC5148FED2B00AC5F2D /* AmalListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmalListViewController.h; sourceTree = "<group>"; };
+		D3453AC6148FED2B00AC5F2D /* AmalListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmalListViewController.m; sourceTree = "<group>"; };
+		D347080314EF462D00B0A23D /* 19-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-gear.png"; sourceTree = "<group>"; };
+		D347080614EF46AF00B0A23D /* AmalSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmalSettingViewController.h; sourceTree = "<group>"; };
+		D347080714EF46AF00B0A23D /* AmalSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmalSettingViewController.m; sourceTree = "<group>"; };
+		D347080914EF969200B0A23D /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
+		D347080B14EFD9F100B0A23D /* AmalSettingEditReminderTimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmalSettingEditReminderTimeController.h; sourceTree = "<group>"; };
+		D347080C14EFD9F100B0A23D /* AmalSettingEditReminderTimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmalSettingEditReminderTimeController.m; sourceTree = "<group>"; };
+		D368DA8B14DA7C2F00F46814 /* ConversationLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationLibrary.h; sourceTree = "<group>"; };
+		D368DA8C14DA7C2F00F46814 /* ConversationLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationLibrary.m; sourceTree = "<group>"; };
+		D368DA8F14DA9FCE00F46814 /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right.png"; sourceTree = "<group>"; };
+		D368DA9014DA9FCE00F46814 /* arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left.png"; sourceTree = "<group>"; };
+		D368DA9314DAA02B00F46814 /* tabamallogscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabamallogscreen.png; sourceTree = "<group>"; };
+		D389EBB014E4BA1000E4E3D2 /* amaldefaulticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amaldefaulticon.png; sourceTree = "<group>"; };
+		D393DA2A14E8C6DB009A2B18 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		D393DA2B14E8C6DB009A2B18 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		D393DA3214E91295009A2B18 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D393DA3414E912A4009A2B18 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		D393DA3814EC038C009A2B18 /* editimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editimage.png; sourceTree = "<group>"; };
+		D393DA3A14EC05FA009A2B18 /* editimage-square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "editimage-square.png"; sourceTree = "<group>"; };
+		D39F7F7514C4165F00CDF698 /* Amal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Amal.h; sourceTree = "<group>"; };
+		D39F7F7614C4165F00CDF698 /* Amal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Amal.m; sourceTree = "<group>"; };
+		D39F7F8D14C5124600CDF698 /* AmalDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmalDataController.h; sourceTree = "<group>"; };
+		D39F7F8E14C5124700CDF698 /* AmalDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmalDataController.m; sourceTree = "<group>"; };
+		D39F7FD314C5781100CDF698 /* AmalNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmalNewViewController.h; sourceTree = "<group>"; };
+		D39F7FD414C5781100CDF698 /* AmalNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmalNewViewController.m; sourceTree = "<group>"; };
+		D39F7FEE14C859AE00CDF698 /* amaldhuha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = amaldhuha.png; path = Amal/amaldhuha.png; sourceTree = "<group>"; };
+		D39F7FEF14C859AE00CDF698 /* amalmathurat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = amalmathurat.png; path = Amal/amalmathurat.png; sourceTree = "<group>"; };
+		D39F7FF014C859AE00CDF698 /* amalquran.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = amalquran.png; path = Amal/amalquran.png; sourceTree = "<group>"; };
+		D3C7C0C3148CA8C100EA2790 /* Amal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C7C0C7148CA8C100EA2790 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3C7C0C9148CA8C100EA2790 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3C7C0CB148CA8C100EA2790 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3C7C0CF148CA8C100EA2790 /* Amal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Amal-Info.plist"; sourceTree = "<group>"; };
+		D3C7C0D1148CA8C100EA2790 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3C7C0D3148CA8C100EA2790 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3C7C0D5148CA8C100EA2790 /* Amal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Amal-Prefix.pch"; sourceTree = "<group>"; };
+		D3C7C0D6148CA8C100EA2790 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3C7C0D7148CA8C100EA2790 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3C7C0DA148CA8C100EA2790 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D3C7C0DF148CA8C100EA2790 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		D3C7C0E1148CA8C100EA2790 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		D3C7C0E3148CA8C100EA2790 /* AmalScoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmalScoreViewController.h; sourceTree = "<group>"; };
+		D3C7C0E4148CA8C100EA2790 /* AmalScoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmalScoreViewController.m; sourceTree = "<group>"; };
+		D3C7C0E6148CA8C100EA2790 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		D3C7C0E8148CA8C100EA2790 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		D3C7C0F4148CAEA400EA2790 /* AmalLogWizardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmalLogWizardViewController.h; sourceTree = "<group>"; };
+		D3C7C0F5148CAEA400EA2790 /* AmalLogWizardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmalLogWizardViewController.m; sourceTree = "<group>"; };
+		D3C7C0F7148CAEBC00EA2790 /* GuidanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidanceViewController.h; sourceTree = "<group>"; };
+		D3C7C0F8148CAEBC00EA2790 /* GuidanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidanceViewController.m; sourceTree = "<group>"; };
+		D3C7C0FA148CAEF200EA2790 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		D3C7C0FB148CAEF200EA2790 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		D3C7C0FD148CB32B00EA2790 /* 117-todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "117-todo.png"; path = "Amal/117-todo.png"; sourceTree = "<group>"; };
+		D3C7C0FF148CB3B500EA2790 /* 81-dashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "81-dashboard.png"; path = "Amal/81-dashboard.png"; sourceTree = "<group>"; };
+		D3C7C101148CB40C00EA2790 /* 08-chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "08-chat.png"; path = "Amal/08-chat.png"; sourceTree = "<group>"; };
+		D3C7C103148CB43300EA2790 /* 179-notepad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "179-notepad.png"; path = "Amal/179-notepad.png"; sourceTree = "<group>"; };
+		D3C7C105148CB49700EA2790 /* 18-envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "18-envelope.png"; path = "Amal/18-envelope.png"; sourceTree = "<group>"; };
+		D3C7C11B148FE4E800EA2790 /* AmalSingleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmalSingleViewController.h; sourceTree = "<group>"; };
+		D3C7C11C148FE4E900EA2790 /* AmalSingleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmalSingleViewController.m; sourceTree = "<group>"; };
+		D3D1719914D3A14600F2F9DF /* AmalSingleEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmalSingleEditController.h; sourceTree = "<group>"; };
+		D3D1719A14D3A14600F2F9DF /* AmalSingleEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmalSingleEditController.m; sourceTree = "<group>"; };
+		D3D6A64E14D28633002FD5BA /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		D3D6A64F14D28633002FD5BA /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		D3D6A65114D28C25002FD5BA /* Done.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Done.h; sourceTree = "<group>"; };
+		D3D6A65214D28C25002FD5BA /* Done.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Done.m; sourceTree = "<group>"; };
+		D3EBF13314F65997006EAE53 /* logonavbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logonavbar.png; sourceTree = "<group>"; };
+		D3F288E814EC8F58002A75D8 /* AmalNewFrequencyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmalNewFrequencyController.h; sourceTree = "<group>"; };
+		D3F288E914EC8F58002A75D8 /* AmalNewFrequencyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmalNewFrequencyController.m; sourceTree = "<group>"; };
+		D3F288F314EE5614002A75D8 /* background-leaf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background-leaf.jpg"; sourceTree = "<group>"; };
+		D3F288F514EE6436002A75D8 /* background-wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background-wood.jpg"; sourceTree = "<group>"; };
+		D3F288F714EE6FB3002A75D8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D3F288F914EE6FC0002A75D8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D3F288FB14EF4082002A75D8 /* navbarbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbarbg.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3C7C0C0148CA8C100EA2790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C7C0C8148CA8C100EA2790 /* UIKit.framework in Frameworks */,
+				D3C7C0CA148CA8C100EA2790 /* Foundation.framework in Frameworks */,
+				D3C7C0CC148CA8C100EA2790 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3C7C0B8148CA8C100EA2790 = {
+			isa = PBXGroup;
+			children = (
+				D3F288F914EE6FC0002A75D8 /* Default@2x.png */,
+				D3F288F714EE6FB3002A75D8 /* Default.png */,
+				D393DA3414E912A4009A2B18 /* Icon@2x.png */,
+				D393DA3214E91295009A2B18 /* Icon.png */,
+				D3C7C11E148FE50200EA2790 /* Images */,
+				D3C7C0CD148CA8C100EA2790 /* Amal */,
+				D3C7C0C6148CA8C100EA2790 /* Frameworks */,
+				D3C7C0C4148CA8C100EA2790 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3C7C0C4148CA8C100EA2790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3C7C0C3148CA8C100EA2790 /* Amal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3C7C0C6148CA8C100EA2790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3C7C0C7148CA8C100EA2790 /* UIKit.framework */,
+				D3C7C0C9148CA8C100EA2790 /* Foundation.framework */,
+				D3C7C0CB148CA8C100EA2790 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3C7C0CD148CA8C100EA2790 /* Amal */ = {
+			isa = PBXGroup;
+			children = (
+				D3C7C0D6148CA8C100EA2790 /* AppDelegate.h */,
+				D3C7C0D7148CA8C100EA2790 /* AppDelegate.m */,
+				D39F7F8D14C5124600CDF698 /* AmalDataController.h */,
+				D39F7F8E14C5124700CDF698 /* AmalDataController.m */,
+				D3C7C0D9148CA8C100EA2790 /* MainStoryboard.storyboard */,
+				D3453AC5148FED2B00AC5F2D /* AmalListViewController.h */,
+				D3453AC6148FED2B00AC5F2D /* AmalListViewController.m */,
+				D347080614EF46AF00B0A23D /* AmalSettingViewController.h */,
+				D347080714EF46AF00B0A23D /* AmalSettingViewController.m */,
+				D347080B14EFD9F100B0A23D /* AmalSettingEditReminderTimeController.h */,
+				D347080C14EFD9F100B0A23D /* AmalSettingEditReminderTimeController.m */,
+				D3C7C11B148FE4E800EA2790 /* AmalSingleViewController.h */,
+				D3C7C11C148FE4E900EA2790 /* AmalSingleViewController.m */,
+				D3D1719914D3A14600F2F9DF /* AmalSingleEditController.h */,
+				D3D1719A14D3A14600F2F9DF /* AmalSingleEditController.m */,
+				D3177A5814D3CDDF00FFBB3E /* AmalSingleEditFrequencyController.h */,
+				D3177A5914D3CDDF00FFBB3E /* AmalSingleEditFrequencyController.m */,
+				D39F7FD314C5781100CDF698 /* AmalNewViewController.h */,
+				D39F7FD414C5781100CDF698 /* AmalNewViewController.m */,
+				D3F288E814EC8F58002A75D8 /* AmalNewFrequencyController.h */,
+				D3F288E914EC8F58002A75D8 /* AmalNewFrequencyController.m */,
+				D3C7C0E3148CA8C100EA2790 /* AmalScoreViewController.h */,
+				D3C7C0E4148CA8C100EA2790 /* AmalScoreViewController.m */,
+				D3C7C0F4148CAEA400EA2790 /* AmalLogWizardViewController.h */,
+				D3C7C0F5148CAEA400EA2790 /* AmalLogWizardViewController.m */,
+				D324CF9D14D930B40084FB0D /* AmalLogWizardSubViewController.h */,
+				D324CF9E14D930B40084FB0D /* AmalLogWizardSubViewController.m */,
+				D3C7C0F7148CAEBC00EA2790 /* GuidanceViewController.h */,
+				D3C7C0F8148CAEBC00EA2790 /* GuidanceViewController.m */,
+				D3C7C0FA148CAEF200EA2790 /* ShareViewController.h */,
+				D3C7C0FB148CAEF200EA2790 /* ShareViewController.m */,
+				D39F7F7514C4165F00CDF698 /* Amal.h */,
+				D39F7F7614C4165F00CDF698 /* Amal.m */,
+				D3D6A64E14D28633002FD5BA /* Score.h */,
+				D3D6A64F14D28633002FD5BA /* Score.m */,
+				D3D6A65114D28C25002FD5BA /* Done.h */,
+				D3D6A65214D28C25002FD5BA /* Done.m */,
+				D368DA8B14DA7C2F00F46814 /* ConversationLibrary.h */,
+				D368DA8C14DA7C2F00F46814 /* ConversationLibrary.m */,
+				D393DA2A14E8C6DB009A2B18 /* Utility.h */,
+				D393DA2B14E8C6DB009A2B18 /* Utility.m */,
+				D3C7C0DF148CA8C100EA2790 /* first.png */,
+				D3C7C0E1148CA8C100EA2790 /* first@2x.png */,
+				D3C7C0E6148CA8C100EA2790 /* second.png */,
+				D3C7C0E8148CA8C100EA2790 /* second@2x.png */,
+				D3C7C0CE148CA8C100EA2790 /* Supporting Files */,
+				D320C5DB14E3B4CA00CDA325 /* AmalData.plist */,
+				D347080914EF969200B0A23D /* Settings.plist */,
+			);
+			path = Amal;
+			sourceTree = "<group>";
+		};
+		D3C7C0CE148CA8C100EA2790 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3C7C0CF148CA8C100EA2790 /* Amal-Info.plist */,
+				D3C7C0D0148CA8C100EA2790 /* InfoPlist.strings */,
+				D3C7C0D3148CA8C100EA2790 /* main.m */,
+				D3C7C0D5148CA8C100EA2790 /* Amal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3C7C11E148FE50200EA2790 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D33059D314FBD6BB00EDAD2C /* table_cell_bg.png */,
+				D33059CE14FB9F8700EDAD2C /* arrowleft.jpg */,
+				D33059CF14FB9F8700EDAD2C /* arrowright.jpg */,
+				D3EBF13314F65997006EAE53 /* logonavbar.png */,
+				D347080314EF462D00B0A23D /* 19-gear.png */,
+				D3F288FB14EF4082002A75D8 /* navbarbg.png */,
+				D33059E314FC842000EDAD2C /* background-grunge.jpg */,
+				D33059D514FC705F00EDAD2C /* background-simple.png */,
+				D33059DD14FC789C00EDAD2C /* background-simple-no-amal-arrow.png */,
+				D33059DA14FC770C00EDAD2C /* background-simple-no-amal.png */,
+				D3F288F314EE5614002A75D8 /* background-leaf.jpg */,
+				D3F288F514EE6436002A75D8 /* background-wood.jpg */,
+				D33059E914FCB4F400EDAD2C /* amallogbg.png */,
+				D33059ED14FCBDED00EDAD2C /* amallogbanner.png */,
+				D33059E514FCB1A400EDAD2C /* scorebanner.png */,
+				D33059E714FCB2BA00EDAD2C /* scoreribbon.png */,
+				D393DA3A14EC05FA009A2B18 /* editimage-square.png */,
+				D393DA3814EC038C009A2B18 /* editimage.png */,
+				D389EBB014E4BA1000E4E3D2 /* amaldefaulticon.png */,
+				D368DA9314DAA02B00F46814 /* tabamallogscreen.png */,
+				D368DA8F14DA9FCE00F46814 /* arrow-right.png */,
+				D368DA9014DA9FCE00F46814 /* arrow-left.png */,
+				D39F7FEE14C859AE00CDF698 /* amaldhuha.png */,
+				D39F7FEF14C859AE00CDF698 /* amalmathurat.png */,
+				D39F7FF014C859AE00CDF698 /* amalquran.png */,
+				D33059DF14FC7F5600EDAD2C /* toggleNo.png */,
+				D33059E014FC7F5600EDAD2C /* toggleYes.png */,
+				D3C7C105148CB49700EA2790 /* 18-envelope.png */,
+				D3C7C103148CB43300EA2790 /* 179-notepad.png */,
+				D3C7C101148CB40C00EA2790 /* 08-chat.png */,
+				D3C7C0FF148CB3B500EA2790 /* 81-dashboard.png */,
+				D3C7C0FD148CB32B00EA2790 /* 117-todo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3C7C0C2148CA8C100EA2790 /* Amal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C7C0EC148CA8C100EA2790 /* Build configuration list for PBXNativeTarget "Amal" */;
+			buildPhases = (
+				D3C7C0BF148CA8C100EA2790 /* Sources */,
+				D3C7C0C0148CA8C100EA2790 /* Frameworks */,
+				D3C7C0C1148CA8C100EA2790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amal;
+			productName = Amal;
+			productReference = D3C7C0C3148CA8C100EA2790 /* Amal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3C7C0BA148CA8C100EA2790 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Experience Garage";
+			};
+			buildConfigurationList = D3C7C0BD148CA8C100EA2790 /* Build configuration list for PBXProject "Amal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3C7C0B8148CA8C100EA2790;
+			productRefGroup = D3C7C0C4148CA8C100EA2790 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3C7C0C2148CA8C100EA2790 /* Amal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3C7C0C1148CA8C100EA2790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C7C0D2148CA8C100EA2790 /* InfoPlist.strings in Resources */,
+				D3C7C0DB148CA8C100EA2790 /* MainStoryboard.storyboard in Resources */,
+				D3C7C0E0148CA8C100EA2790 /* first.png in Resources */,
+				D3C7C0E2148CA8C100EA2790 /* first@2x.png in Resources */,
+				D3C7C0E7148CA8C100EA2790 /* second.png in Resources */,
+				D3C7C0E9148CA8C100EA2790 /* second@2x.png in Resources */,
+				D3C7C0FE148CB32B00EA2790 /* 117-todo.png in Resources */,
+				D3C7C100148CB3B500EA2790 /* 81-dashboard.png in Resources */,
+				D3C7C102148CB40D00EA2790 /* 08-chat.png in Resources */,
+				D3C7C104148CB43300EA2790 /* 179-notepad.png in Resources */,
+				D3C7C106148CB49700EA2790 /* 18-envelope.png in Resources */,
+				D39F7FF114C859AE00CDF698 /* amaldhuha.png in Resources */,
+				D39F7FF214C859AE00CDF698 /* amalmathurat.png in Resources */,
+				D39F7FF314C859AE00CDF698 /* amalquran.png in Resources */,
+				D368DA9114DA9FCE00F46814 /* arrow-right.png in Resources */,
+				D368DA9214DA9FCE00F46814 /* arrow-left.png in Resources */,
+				D368DA9414DAA02B00F46814 /* tabamallogscreen.png in Resources */,
+				D320C5DC14E3B4CA00CDA325 /* AmalData.plist in Resources */,
+				D389EBB114E4BA1100E4E3D2 /* amaldefaulticon.png in Resources */,
+				D393DA3314E91295009A2B18 /* Icon.png in Resources */,
+				D393DA3514E912A4009A2B18 /* Icon@2x.png in Resources */,
+				D393DA3914EC038C009A2B18 /* editimage.png in Resources */,
+				D393DA3B14EC05FA009A2B18 /* editimage-square.png in Resources */,
+				D3F288F414EE5615002A75D8 /* background-leaf.jpg in Resources */,
+				D3F288F614EE6436002A75D8 /* background-wood.jpg in Resources */,
+				D3F288F814EE6FB3002A75D8 /* Default.png in Resources */,
+				D3F288FA14EE6FC0002A75D8 /* Default@2x.png in Resources */,
+				D3F288FC14EF4082002A75D8 /* navbarbg.png in Resources */,
+				D347080414EF462D00B0A23D /* 19-gear.png in Resources */,
+				D347080A14EF969200B0A23D /* Settings.plist in Resources */,
+				D3EBF13414F65997006EAE53 /* logonavbar.png in Resources */,
+				D33059D014FB9F8700EDAD2C /* arrowleft.jpg in Resources */,
+				D33059D114FB9F8700EDAD2C /* arrowright.jpg in Resources */,
+				D33059D414FBD6BB00EDAD2C /* table_cell_bg.png in Resources */,
+				D33059D614FC705F00EDAD2C /* background-simple.png in Resources */,
+				D33059DC14FC770C00EDAD2C /* background-simple-no-amal.png in Resources */,
+				D33059DE14FC789C00EDAD2C /* background-simple-no-amal-arrow.png in Resources */,
+				D33059E114FC7F5600EDAD2C /* toggleNo.png in Resources */,
+				D33059E214FC7F5600EDAD2C /* toggleYes.png in Resources */,
+				D33059E414FC842000EDAD2C /* background-grunge.jpg in Resources */,
+				D33059E614FCB1A400EDAD2C /* scorebanner.png in Resources */,
+				D33059E814FCB2BA00EDAD2C /* scoreribbon.png in Resources */,
+				D33059EA14FCB4F400EDAD2C /* amallogbg.png in Resources */,
+				D33059EE14FCBDED00EDAD2C /* amallogbanner.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3C7C0BF148CA8C100EA2790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C7C0D4148CA8C100EA2790 /* main.m in Sources */,
+				D3C7C0D8148CA8C100EA2790 /* AppDelegate.m in Sources */,
+				D3C7C0E5148CA8C100EA2790 /* AmalScoreViewController.m in Sources */,
+				D3C7C0F6148CAEA400EA2790 /* AmalLogWizardViewController.m in Sources */,
+				D3C7C0F9148CAEBC00EA2790 /* GuidanceViewController.m in Sources */,
+				D3C7C0FC148CAEF200EA2790 /* ShareViewController.m in Sources */,
+				D3C7C11D148FE4E900EA2790 /* AmalSingleViewController.m in Sources */,
+				D3453AC7148FED2B00AC5F2D /* AmalListViewController.m in Sources */,
+				D39F7F7714C4166000CDF698 /* Amal.m in Sources */,
+				D39F7F8F14C5124700CDF698 /* AmalDataController.m in Sources */,
+				D39F7FD514C5781100CDF698 /* AmalNewViewController.m in Sources */,
+				D3D6A65014D28633002FD5BA /* Score.m in Sources */,
+				D3D6A65314D28C25002FD5BA /* Done.m in Sources */,
+				D3D1719B14D3A14600F2F9DF /* AmalSingleEditController.m in Sources */,
+				D3177A5A14D3CDDF00FFBB3E /* AmalSingleEditFrequencyController.m in Sources */,
+				D324CF9F14D930B50084FB0D /* AmalLogWizardSubViewController.m in Sources */,
+				D368DA8D14DA7C2F00F46814 /* ConversationLibrary.m in Sources */,
+				D393DA2C14E8C6DB009A2B18 /* Utility.m in Sources */,
+				D3F288EA14EC8F58002A75D8 /* AmalNewFrequencyController.m in Sources */,
+				D347080814EF46AF00B0A23D /* AmalSettingViewController.m in Sources */,
+				D347080D14EFD9F100B0A23D /* AmalSettingEditReminderTimeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3C7C0D0148CA8C100EA2790 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C7C0D1148CA8C100EA2790 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3C7C0D9148CA8C100EA2790 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C7C0DA148CA8C100EA2790 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D33059EF14FCE81B00EDAD2C /* Ad-hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mohd Rusman Arief A Rahman";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = Amal;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "56995C8F-A995-4E71-9434-59069D9E3386";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad-hoc";
+		};
+		D33059F014FCE81B00EDAD2C /* Ad-hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Amal/Amal-Prefix.pch";
+				INFOPLIST_FILE = "Amal/Amal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad-hoc";
+		};
+		D33059F114FE3D5A00EDAD2C /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mohd Rusman Arief A Rahman";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = Amal;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "56995C8F-A995-4E71-9434-59069D9E3386";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		D33059F214FE3D5A00EDAD2C /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Amal/Amal-Prefix.pch";
+				INFOPLIST_FILE = "Amal/Amal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = AppStore;
+		};
+		D3C7C0EA148CA8C100EA2790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3C7C0EB148CA8C100EA2790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3C7C0ED148CA8C100EA2790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Amal/Amal-Prefix.pch";
+				INFOPLIST_FILE = "Amal/Amal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3C7C0EE148CA8C100EA2790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Amal/Amal-Prefix.pch";
+				INFOPLIST_FILE = "Amal/Amal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3C7C0BD148CA8C100EA2790 /* Build configuration list for PBXProject "Amal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C7C0EA148CA8C100EA2790 /* Debug */,
+				D3C7C0EB148CA8C100EA2790 /* Release */,
+				D33059EF14FCE81B00EDAD2C /* Ad-hoc */,
+				D33059F114FE3D5A00EDAD2C /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AppStore;
+		};
+		D3C7C0EC148CA8C100EA2790 /* Build configuration list for PBXNativeTarget "Amal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C7C0ED148CA8C100EA2790 /* Debug */,
+				D3C7C0EE148CA8C100EA2790 /* Release */,
+				D33059F014FCE81B00EDAD2C /* Ad-hoc */,
+				D33059F214FE3D5A00EDAD2C /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AppStore;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3C7C0BA148CA8C100EA2790 /* Project object */;
+}

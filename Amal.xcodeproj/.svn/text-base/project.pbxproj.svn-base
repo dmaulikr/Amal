@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3453AC7148FED2B00AC5F2D /* AmalListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3453AC6148FED2B00AC5F2D /* AmalListViewController.m */; };
+		D3C7C0C8148CA8C100EA2790 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C7C0C7148CA8C100EA2790 /* UIKit.framework */; };
+		D3C7C0CA148CA8C100EA2790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C7C0C9148CA8C100EA2790 /* Foundation.framework */; };
+		D3C7C0CC148CA8C100EA2790 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C7C0CB148CA8C100EA2790 /* CoreGraphics.framework */; };
+		D3C7C0D2148CA8C100EA2790 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C0D0148CA8C100EA2790 /* InfoPlist.strings */; };
+		D3C7C0D4148CA8C100EA2790 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C7C0D3148CA8C100EA2790 /* main.m */; };
+		D3C7C0D8148CA8C100EA2790 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C7C0D7148CA8C100EA2790 /* AppDelegate.m */; };
+		D3C7C0DB148CA8C100EA2790 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C0D9148CA8C100EA2790 /* MainStoryboard.storyboard */; };
+		D3C7C0E0148CA8C100EA2790 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C0DF148CA8C100EA2790 /* first.png */; };
+		D3C7C0E2148CA8C100EA2790 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C0E1148CA8C100EA2790 /* first@2x.png */; };
+		D3C7C0E5148CA8C100EA2790 /* ScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C7C0E4148CA8C100EA2790 /* ScoreViewController.m */; };
+		D3C7C0E7148CA8C100EA2790 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C0E6148CA8C100EA2790 /* second.png */; };
+		D3C7C0E9148CA8C100EA2790 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C0E8148CA8C100EA2790 /* second@2x.png */; };
+		D3C7C0F6148CAEA400EA2790 /* AmalLogWizardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C7C0F5148CAEA400EA2790 /* AmalLogWizardViewController.m */; };
+		D3C7C0F9148CAEBC00EA2790 /* GuidanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C7C0F8148CAEBC00EA2790 /* GuidanceViewController.m */; };
+		D3C7C0FC148CAEF200EA2790 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C7C0FB148CAEF200EA2790 /* ShareViewController.m */; };
+		D3C7C0FE148CB32B00EA2790 /* 117-todo.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C0FD148CB32B00EA2790 /* 117-todo.png */; };
+		D3C7C100148CB3B500EA2790 /* 81-dashboard.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C0FF148CB3B500EA2790 /* 81-dashboard.png */; };
+		D3C7C102148CB40D00EA2790 /* 08-chat.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C101148CB40C00EA2790 /* 08-chat.png */; };
+		D3C7C104148CB43300EA2790 /* 179-notepad.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C103148CB43300EA2790 /* 179-notepad.png */; };
+		D3C7C106148CB49700EA2790 /* 18-envelope.png in Resources */ = {isa = PBXBuildFile; fileRef = D3C7C105148CB49700EA2790 /* 18-envelope.png */; };
+		D3C7C11D148FE4E900EA2790 /* AmalSingleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C7C11C148FE4E900EA2790 /* AmalSingleViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3453AC5148FED2B00AC5F2D /* AmalListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmalListViewController.h; sourceTree = "<group>"; };
+		D3453AC6148FED2B00AC5F2D /* AmalListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmalListViewController.m; sourceTree = "<group>"; };
+		D3C7C0C3148CA8C100EA2790 /* Amal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C7C0C7148CA8C100EA2790 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3C7C0C9148CA8C100EA2790 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3C7C0CB148CA8C100EA2790 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3C7C0CF148CA8C100EA2790 /* Amal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Amal-Info.plist"; sourceTree = "<group>"; };
+		D3C7C0D1148CA8C100EA2790 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3C7C0D3148CA8C100EA2790 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3C7C0D5148CA8C100EA2790 /* Amal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Amal-Prefix.pch"; sourceTree = "<group>"; };
+		D3C7C0D6148CA8C100EA2790 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3C7C0D7148CA8C100EA2790 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3C7C0DA148CA8C100EA2790 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D3C7C0DF148CA8C100EA2790 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		D3C7C0E1148CA8C100EA2790 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		D3C7C0E3148CA8C100EA2790 /* ScoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreViewController.h; sourceTree = "<group>"; };
+		D3C7C0E4148CA8C100EA2790 /* ScoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreViewController.m; sourceTree = "<group>"; };
+		D3C7C0E6148CA8C100EA2790 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		D3C7C0E8148CA8C100EA2790 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		D3C7C0F4148CAEA400EA2790 /* AmalLogWizardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmalLogWizardViewController.h; sourceTree = "<group>"; };
+		D3C7C0F5148CAEA400EA2790 /* AmalLogWizardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmalLogWizardViewController.m; sourceTree = "<group>"; };
+		D3C7C0F7148CAEBC00EA2790 /* GuidanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidanceViewController.h; sourceTree = "<group>"; };
+		D3C7C0F8148CAEBC00EA2790 /* GuidanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidanceViewController.m; sourceTree = "<group>"; };
+		D3C7C0FA148CAEF200EA2790 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		D3C7C0FB148CAEF200EA2790 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		D3C7C0FD148CB32B00EA2790 /* 117-todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "117-todo.png"; path = "Amal/117-todo.png"; sourceTree = "<group>"; };
+		D3C7C0FF148CB3B500EA2790 /* 81-dashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "81-dashboard.png"; path = "Amal/81-dashboard.png"; sourceTree = "<group>"; };
+		D3C7C101148CB40C00EA2790 /* 08-chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "08-chat.png"; path = "Amal/08-chat.png"; sourceTree = "<group>"; };
+		D3C7C103148CB43300EA2790 /* 179-notepad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "179-notepad.png"; path = "Amal/179-notepad.png"; sourceTree = "<group>"; };
+		D3C7C105148CB49700EA2790 /* 18-envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "18-envelope.png"; path = "Amal/18-envelope.png"; sourceTree = "<group>"; };
+		D3C7C11B148FE4E800EA2790 /* AmalSingleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmalSingleViewController.h; sourceTree = "<group>"; };
+		D3C7C11C148FE4E900EA2790 /* AmalSingleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmalSingleViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3C7C0C0148CA8C100EA2790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C7C0C8148CA8C100EA2790 /* UIKit.framework in Frameworks */,
+				D3C7C0CA148CA8C100EA2790 /* Foundation.framework in Frameworks */,
+				D3C7C0CC148CA8C100EA2790 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3C7C0B8148CA8C100EA2790 = {
+			isa = PBXGroup;
+			children = (
+				D3C7C11E148FE50200EA2790 /* Images */,
+				D3C7C0CD148CA8C100EA2790 /* Amal */,
+				D3C7C0C6148CA8C100EA2790 /* Frameworks */,
+				D3C7C0C4148CA8C100EA2790 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3C7C0C4148CA8C100EA2790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3C7C0C3148CA8C100EA2790 /* Amal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3C7C0C6148CA8C100EA2790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3C7C0C7148CA8C100EA2790 /* UIKit.framework */,
+				D3C7C0C9148CA8C100EA2790 /* Foundation.framework */,
+				D3C7C0CB148CA8C100EA2790 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3C7C0CD148CA8C100EA2790 /* Amal */ = {
+			isa = PBXGroup;
+			children = (
+				D3C7C0D6148CA8C100EA2790 /* AppDelegate.h */,
+				D3C7C0D7148CA8C100EA2790 /* AppDelegate.m */,
+				D3C7C0D9148CA8C100EA2790 /* MainStoryboard.storyboard */,
+				D3453AC5148FED2B00AC5F2D /* AmalListViewController.h */,
+				D3453AC6148FED2B00AC5F2D /* AmalListViewController.m */,
+				D3C7C11B148FE4E800EA2790 /* AmalSingleViewController.h */,
+				D3C7C11C148FE4E900EA2790 /* AmalSingleViewController.m */,
+				D3C7C0E3148CA8C100EA2790 /* ScoreViewController.h */,
+				D3C7C0E4148CA8C100EA2790 /* ScoreViewController.m */,
+				D3C7C0F4148CAEA400EA2790 /* AmalLogWizardViewController.h */,
+				D3C7C0F5148CAEA400EA2790 /* AmalLogWizardViewController.m */,
+				D3C7C0F7148CAEBC00EA2790 /* GuidanceViewController.h */,
+				D3C7C0F8148CAEBC00EA2790 /* GuidanceViewController.m */,
+				D3C7C0FA148CAEF200EA2790 /* ShareViewController.h */,
+				D3C7C0FB148CAEF200EA2790 /* ShareViewController.m */,
+				D3C7C0DF148CA8C100EA2790 /* first.png */,
+				D3C7C0E1148CA8C100EA2790 /* first@2x.png */,
+				D3C7C0E6148CA8C100EA2790 /* second.png */,
+				D3C7C0E8148CA8C100EA2790 /* second@2x.png */,
+				D3C7C0CE148CA8C100EA2790 /* Supporting Files */,
+			);
+			path = Amal;
+			sourceTree = "<group>";
+		};
+		D3C7C0CE148CA8C100EA2790 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3C7C0CF148CA8C100EA2790 /* Amal-Info.plist */,
+				D3C7C0D0148CA8C100EA2790 /* InfoPlist.strings */,
+				D3C7C0D3148CA8C100EA2790 /* main.m */,
+				D3C7C0D5148CA8C100EA2790 /* Amal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3C7C11E148FE50200EA2790 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D3C7C105148CB49700EA2790 /* 18-envelope.png */,
+				D3C7C103148CB43300EA2790 /* 179-notepad.png */,
+				D3C7C101148CB40C00EA2790 /* 08-chat.png */,
+				D3C7C0FF148CB3B500EA2790 /* 81-dashboard.png */,
+				D3C7C0FD148CB32B00EA2790 /* 117-todo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3C7C0C2148CA8C100EA2790 /* Amal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C7C0EC148CA8C100EA2790 /* Build configuration list for PBXNativeTarget "Amal" */;
+			buildPhases = (
+				D3C7C0BF148CA8C100EA2790 /* Sources */,
+				D3C7C0C0148CA8C100EA2790 /* Frameworks */,
+				D3C7C0C1148CA8C100EA2790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amal;
+			productName = Amal;
+			productReference = D3C7C0C3148CA8C100EA2790 /* Amal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3C7C0BA148CA8C100EA2790 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Experience Garage";
+			};
+			buildConfigurationList = D3C7C0BD148CA8C100EA2790 /* Build configuration list for PBXProject "Amal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3C7C0B8148CA8C100EA2790;
+			productRefGroup = D3C7C0C4148CA8C100EA2790 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3C7C0C2148CA8C100EA2790 /* Amal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3C7C0C1148CA8C100EA2790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C7C0D2148CA8C100EA2790 /* InfoPlist.strings in Resources */,
+				D3C7C0DB148CA8C100EA2790 /* MainStoryboard.storyboard in Resources */,
+				D3C7C0E0148CA8C100EA2790 /* first.png in Resources */,
+				D3C7C0E2148CA8C100EA2790 /* first@2x.png in Resources */,
+				D3C7C0E7148CA8C100EA2790 /* second.png in Resources */,
+				D3C7C0E9148CA8C100EA2790 /* second@2x.png in Resources */,
+				D3C7C0FE148CB32B00EA2790 /* 117-todo.png in Resources */,
+				D3C7C100148CB3B500EA2790 /* 81-dashboard.png in Resources */,
+				D3C7C102148CB40D00EA2790 /* 08-chat.png in Resources */,
+				D3C7C104148CB43300EA2790 /* 179-notepad.png in Resources */,
+				D3C7C106148CB49700EA2790 /* 18-envelope.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3C7C0BF148CA8C100EA2790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C7C0D4148CA8C100EA2790 /* main.m in Sources */,
+				D3C7C0D8148CA8C100EA2790 /* AppDelegate.m in Sources */,
+				D3C7C0E5148CA8C100EA2790 /* ScoreViewController.m in Sources */,
+				D3C7C0F6148CAEA400EA2790 /* AmalLogWizardViewController.m in Sources */,
+				D3C7C0F9148CAEBC00EA2790 /* GuidanceViewController.m in Sources */,
+				D3C7C0FC148CAEF200EA2790 /* ShareViewController.m in Sources */,
+				D3C7C11D148FE4E900EA2790 /* AmalSingleViewController.m in Sources */,
+				D3453AC7148FED2B00AC5F2D /* AmalListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3C7C0D0148CA8C100EA2790 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C7C0D1148CA8C100EA2790 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3C7C0D9148CA8C100EA2790 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C7C0DA148CA8C100EA2790 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3C7C0EA148CA8C100EA2790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3C7C0EB148CA8C100EA2790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3C7C0ED148CA8C100EA2790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Amal/Amal-Prefix.pch";
+				INFOPLIST_FILE = "Amal/Amal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3C7C0EE148CA8C100EA2790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Amal/Amal-Prefix.pch";
+				INFOPLIST_FILE = "Amal/Amal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3C7C0BD148CA8C100EA2790 /* Build configuration list for PBXProject "Amal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C7C0EA148CA8C100EA2790 /* Debug */,
+				D3C7C0EB148CA8C100EA2790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C7C0EC148CA8C100EA2790 /* Build configuration list for PBXNativeTarget "Amal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C7C0ED148CA8C100EA2790 /* Debug */,
+				D3C7C0EE148CA8C100EA2790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3C7C0BA148CA8C100EA2790 /* Project object */;
+}

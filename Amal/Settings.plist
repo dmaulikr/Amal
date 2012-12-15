@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ReminderEnable</key>
+	<integer>1</integer>
+	<key>ReminderTime</key>
+	<date>2012-02-18T15:00:00Z</date>
+	<key>LaunchedFirstTime</key>
+	<integer>0</integer>
+</dict>
+</plist>

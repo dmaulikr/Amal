@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AmalList</key>
+	<array>
+		<dict>
+			<key>AmalTitle</key>
+			<string>Read Quran</string>
+			<key>AmalScale</key>
+			<string>10 pages</string>
+			<key>AmalFrequency</key>
+			<string>Daily</string>
+			<key>AmalImageUrl</key>
+			<string>amaldefaulticon.png</string>
+			<key>AmalScore</key>
+			<dict>
+				<key>ScoreMark</key>
+				<integer>0</integer>
+				<key>ScoreDoneList</key>
+				<array>
+					<dict>
+						<key>DoneDid</key>
+						<real>0</real>
+						<key>DoneDate</key>
+						<date>2012-02-25T16:00:00Z</date>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
